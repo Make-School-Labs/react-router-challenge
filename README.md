@@ -84,7 +84,7 @@ The Links are in Header. Since this is toplevel navigation that appears on all p
 Import `NavLink` at the top of `Header.js`
 
 ```jsx
-import { NavLink } from 'react-router-dom
+import { NavLink } from 'react-router-dom'
 ```
 
 Currently there are `<a>` tags used. Replace these with `<NavLink>`s. You'll need to define a path for each of these routes. Paths can be the names of the pages: 
@@ -93,7 +93,13 @@ Currently there are `<a>` tags used. Replace these with `<NavLink>`s. You'll nee
 - '/about' - About Page: displays `PageAbout`
 - '/contact' - Contact Page: displays `PageContact`
 
+Set the `to` attribute of each `NavLink` to the paths above. For example: 
+
+`<NavLink to='/'>Home</NavLink>`
+
 _This will NOT create navigation yet._ You'll have to define a `Route` to handle each of these paths. 
+
+
 
 **Challenge 5** Defining `Route`s for each of the paths. Each `Route` will render a component when the path matches the path defined in the `Route`. 
 
