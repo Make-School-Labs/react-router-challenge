@@ -151,7 +151,7 @@ Define a `Route` in `App.js`. Import the `ProductDetail` component
 
 `import ProductDetail from './ProductDetail`
 
-Then define a new `Route`
+Then define a new `Route` in App.js:
 
 ```jsx
 function App() {
@@ -171,11 +171,11 @@ function App() {
 
 In the `Product` define a `Link` that will be used to show this new `Route`. 
 
-In `ProductDetail` import `Link`
+In `Product` import `Link`
 
 `import { Link } from 'react-router-dom'`
 
-Then wrap the `img` in the `Link`. This way clicking the image will navigate to the new route. 
+Then wrap the `img` in the `Link`. This way clicking the image will navigate to the new route.  Do this in Product.js:
 
 ```jsx
 function Product(props) {
