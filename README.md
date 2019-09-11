@@ -201,7 +201,7 @@ Handle the dynamic data passed along to `ProductDetail`. Make the following chan
 
 ```jsx
 function ProductDetail(props) {
-  const {name, desc, image_lg, price} = props.location.state
+  const { name, desc, image_lg, price } = props.location.state
   return (
     ...
   );
